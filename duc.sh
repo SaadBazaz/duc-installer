@@ -73,14 +73,6 @@ function instalar() {
     sudo make clean
     sudo make && sudo make install
     echo
-    echo "Adding NOIP2 to system startup";
-    echo
-    cd /usr/local/src/noip2/
-    sudo mv -v debian.noip2.sh /etc/init.d/noip2
-
-    sudo chmod +x /etc/init.d/noip2
-
-    sudo update-rc.d noip2 defaults
     echo "Installation finished!"
     sleep 6
     echo ""
