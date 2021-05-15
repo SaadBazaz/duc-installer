@@ -4,7 +4,9 @@ duc-installer
 Script for installing No-IP on linux.
 
 
-For using it, just download duc.sh and set the proper permissions:
+For using it, just download this repo as a ZIP and extract the contents (or clone with Git), and open the folder in a Terminal.
+
+Then set the proper permissions:
 
 ```$ sudo chmod a+x duc.sh```
 
